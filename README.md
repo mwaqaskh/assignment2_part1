@@ -32,6 +32,11 @@ docker run -d --name httpd_container --network my_network -p 8081:80 httpd
 ![image](https://github.com/mwaqaskh/assignment2_part1/assets/39801941/e7456e4f-d200-420d-be17-1ec463c91ec8)
 
 ## Step 6 Use the "docker network inspect" command to display information about the"my_network" network. Document your findings in the README.md file. (4 marks)
+```
+docker inspect network my_network
+```
+![image](https://github.com/mwaqaskh/assignment2_part1/assets/39801941/14e798a2-b3ba-442e-bebd-336208317a35)
+
 ## Step 7 Stop and remove the "nginx_container" container. (2 marks)
 ## Step 8 Create a new Docker container using the "nginx" image and connect it to the"my_network" network. Name the container "nginx_container_2". (4 marks)
 ## Step 9 Verify that the "nginx" default page is accessible on your host machine athttp://localhost:8082. (2 marks)
