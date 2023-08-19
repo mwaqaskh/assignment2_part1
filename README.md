@@ -5,9 +5,13 @@
 docker network create my_network
 ```
 ![image](https://github.com/mwaqaskh/assignment2_part1/assets/39801941/13affeae-9290-4b11-aa19-bf256da95c62)
+![image](https://github.com/mwaqaskh/assignment2_part1/assets/39801941/87f37827-c237-40ea-a60e-a30196a74b18)
 
-# Step 2 Create a new Docker container using the "nginx" image and connect it to the
-"my_network" network. Name the container "nginx_container". (4 marks)
+# Step 2 Create a new Docker container using the "nginx" image and connect it to the "my_network" network. Name the container "nginx_container". (4 marks)
+```
+docker run -d --name nginx_container --network my_network -p 8080:80 nginx
+```
+
 # Step 3 Verify that the "nginx" default page is accessible on your host machine at
 http://localhost:8080. (2 marks)
 # Step 4 Create a new Docker container using the "httpd" image and connect it to the
