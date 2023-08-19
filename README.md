@@ -38,6 +38,14 @@ docker inspect network my_network
 ![image](https://github.com/mwaqaskh/assignment2_part1/assets/39801941/14e798a2-b3ba-442e-bebd-336208317a35)
 
 ## Step 7 Stop and remove the "nginx_container" container. (2 marks)
+```
+docker stop nginx_container
+docker rm nginx_container
+```
+![image](https://github.com/mwaqaskh/assignment2_part1/assets/39801941/1a9e4459-1ee4-496c-8ca5-5ea4068243d2)
+![image](https://github.com/mwaqaskh/assignment2_part1/assets/39801941/cb856365-aedc-4b27-89d1-f9d483f5e364)
+
+
 ## Step 8 Create a new Docker container using the "nginx" image and connect it to the"my_network" network. Name the container "nginx_container_2". (4 marks)
 ## Step 9 Verify that the "nginx" default page is accessible on your host machine athttp://localhost:8082. (2 marks)
 ## Step 10 Use the "docker container ls" command to display information about all runningcontainers. Document your findings in the README.md file. (4 marks)
