@@ -1,6 +1,11 @@
 # assignment2_part1
 
 # Step 1 Create a new Docker network named "my_network" using the bridge driver. (2 marks)
+```
+docker network create my_network
+```
+![image](https://github.com/mwaqaskh/assignment2_part1/assets/39801941/13affeae-9290-4b11-aa19-bf256da95c62)
+
 # Step 2 Create a new Docker container using the "nginx" image and connect it to the
 "my_network" network. Name the container "nginx_container". (4 marks)
 # Step 3 Verify that the "nginx" default page is accessible on your host machine at
